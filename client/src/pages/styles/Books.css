@@ -10,24 +10,43 @@
 .add-btn {
   margin-left: 2.5em;
   margin-bottom: 0.5em;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   border-radius: 5%;
   background-color: rgb(219, 219, 219);
+  background-color: #068da9;
   color: rgb(59, 58, 58);
+  color: #fff;
   font-weight: bold;
   cursor: pointer;
 }
 
-.edit-btn {
-  margin-right: 0.5em;
+.edit-btn,
+.delete-btn {
+  margin-left: 0.5em;
+  background-color: #068da9;
+  color: #fff;
+  padding: 0.5em 1em;
 }
-
+.add-btn:hover,
+.edit-btn:hover {
+  background-color: #04697e;
+}
+.delete-btn {
+  background-color: #e55807;
+}
+.delete-btn:hover {
+  background-color: #9c3c05;
+}
 .edit-dialog {
   background-color: rgb(234, 230, 230);
 }
 
 .promote-dialog {
   background-color: rgb(234, 230, 230);
+}
+.action-btn-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .flex-container-bookspage {

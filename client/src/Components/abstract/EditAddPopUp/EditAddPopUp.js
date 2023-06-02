@@ -102,6 +102,7 @@ export default function EditAddPopUp({
           txt={"Save changes"}
         />
         <ButtonComponent
+          className={"btn-discard-changes"}
           onClick={(e) => {
             e.preventDefault();
             setBookContent(initialState);

@@ -29,7 +29,7 @@ export default function OrderBook({ book, setAllBooks, allBooks, setQuery }) {
   }
 
   return (
-    <div>
+    <div className="order-book-wrapper">
       <ButtonComponent
         className={"dec-amount-btn"}
         testId={"dec-amount-btn"}
@@ -43,6 +43,7 @@ export default function OrderBook({ book, setAllBooks, allBooks, setQuery }) {
         isDisabled={bookToOrder.quantity <= 0}
       />
       <input
+        className="order-amount-input"
         data-testid="order-amount-input"
         type="number"
         value={bookToOrder.quantity}

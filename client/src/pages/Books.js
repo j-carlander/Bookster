@@ -99,7 +99,7 @@ export default function Books() {
                   )
                 }
                 action={
-                  <div>
+                  <div className="action-btn-wrapper">
                     <ButtonComponent
                       className={"edit-btn"}
                       onClick={() => {
@@ -113,6 +113,7 @@ export default function Books() {
                       txt={"Edit"}
                     />
                     <ButtonComponent
+                      className={"delete-btn"}
                       onClick={() => {
                         setMethod("DELETE");
                         setBookToDelete(book.title);

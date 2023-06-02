@@ -1,8 +1,21 @@
-.delete-header, .promote-header {
-    background-color: rgb(161, 161, 161);
-    padding: .5em;
+.delete-header,
+.promote-header {
+  background-color: rgb(161, 161, 161);
+  background-color: #e55807;
+  color: #fff;
+  padding: 0.5em;
 }
 
+.btn-promote-delete,
+.btn-cancel-delete {
+  margin: 1em 1.5em 1em 1em;
+  padding: 0.5em 1em;
+}
 .btn-promote-delete {
-    margin: 1em 1.5em 1em 1em;
+  background-color: #e55807;
+  color: #fff;
+}
+
+.btn-promote-delete:hover {
+  background-color: #9c3c05;
 }

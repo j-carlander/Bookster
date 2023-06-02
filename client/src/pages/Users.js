@@ -74,6 +74,7 @@ export default function Users() {
                       txt={"Promote"}
                     />
                     <ButtonComponent
+                      className={"delete-btn"}
                       onClick={() => {
                         setMethod("DELETE");
                         setUserAccount(user.username);

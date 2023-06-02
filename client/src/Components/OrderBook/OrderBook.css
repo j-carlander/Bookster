@@ -1,3 +1,36 @@
+.order-book-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .order-btn {
-    margin-left: .5em;
+  margin-left: 0.5em;
+  background-color: #068da9;
+  color: #fff;
+  padding: 0.5em 1em;
+}
+.order-btn:hover {
+  background-color: #04697e;
+  color: #fff;
+}
+
+.dec-amount-btn,
+.inc-amount-btn {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #068da9;
+  border: transparent;
+  background: none;
+}
+
+.dec-amount-btn:hover,
+.inc-amount-btn:hover {
+  color: #04697e;
+}
+
+.order-amount-input {
+  width: 3ch;
+  font-size: 1.5rem;
+  text-align: end;
+  background-color: #ecf8f9;
 }

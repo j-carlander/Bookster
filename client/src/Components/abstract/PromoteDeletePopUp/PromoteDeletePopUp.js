@@ -62,6 +62,7 @@ export default function PromoteDeletePopUp({
           onClick={handleMethod}
         />
         <ButtonComponent
+          className="btn-cancel-delete"
           onClick={(e) => {
             e.preventDefault();
             promoteDeleteRef.current.close();

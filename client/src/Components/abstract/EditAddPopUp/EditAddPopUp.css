@@ -1,23 +1,34 @@
 .editAdd-header {
-    background-color: rgb(161, 161, 161);
-    padding: .5em;
+  background-color: rgb(161, 161, 161);
+  background-color: #068da9;
+  color: #fff;
+  padding: 0.5em;
 }
 
 .title-styling {
-    margin-right: .5em;
-    font-weight: bold;
+  margin-right: 0.5em;
+  font-weight: bold;
 }
 
 .author-styling {
-    margin: .5em;
-    font-weight: bold;
+  margin: 0.5em;
+  font-weight: bold;
 }
 
 .quantity-styling {
-    margin: .5em;
-    font-weight: bold;
+  margin: 0.5em;
+  font-weight: bold;
 }
 
+.btn-save-changes,
+.btn-discard-changes {
+  margin: 2.5em 1.5em 1em 2em;
+  padding: 0.5em 1em;
+}
 .btn-save-changes {
-    margin: 2.5em 1.5em 1em 2em;
+  background-color: #068da9;
+  color: #fff;
+}
+.btn-save-changes:hover {
+  background-color: #04697e;
 }
